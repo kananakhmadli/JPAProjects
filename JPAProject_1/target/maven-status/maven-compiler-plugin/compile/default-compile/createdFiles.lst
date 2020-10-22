@@ -1,0 +1,9 @@
+com\jpa\queries\ProductQueries.class
+com\jpa\jpaFactory\AbstractDAO.class
+com\jpa\inter\ProductDAOInter.class
+com\jpa\impl\ProductDAOImple.class
+com\jpa\model\Product.class
+com\jpa\model\ProductDetails.class
+com\jpa\main\Main.class
+com\jpa\model\Brand.class
+com\jpa\model\Category.class
