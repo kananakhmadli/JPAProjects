@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <File name="file" fileName="C:\Users\Kanan\Desktop\file.txt">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+  
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="file"/>
+            <AppenderRef ref="Console"/>
+        </Root>
+        <!--        <Logger name="aze.com.temp" level="INFO" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="aze.com.temp.impl" level="FATAL" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="aze.com.temp.util" level="WARN" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>-->
+    </Loggers>
+</Configuration>
