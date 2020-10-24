@@ -7,7 +7,6 @@ package com.jpa.impl;
 
 import com.jpa.inter.ProductDAOInter;
 import com.jpa.jpaFactory.AbstractDAO;
-import static com.jpa.main.Main.em;
 import com.jpa.model.Brand;
 import com.jpa.model.Category;
 import com.jpa.model.Product;
