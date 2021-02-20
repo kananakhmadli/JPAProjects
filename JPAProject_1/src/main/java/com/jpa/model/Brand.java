@@ -2,7 +2,6 @@ package com.jpa.model;
 
 import java.io.Serializable;
 import java.util.List;
-import javassist.SerialVersionUID;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
