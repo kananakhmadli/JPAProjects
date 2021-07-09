@@ -8,6 +8,7 @@ import com.jpa.model.Product;
 import java.util.Date;
 import java.util.List;
 
+
 public class Main {
 
     private static ProductDAOInter dAOInter = new ProductDAOImple();
